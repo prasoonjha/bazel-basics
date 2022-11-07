@@ -1,2 +1,2 @@
-load("//:my_bazel_rule.bzl", "hello_bazel_impl")
+load("//:my_bazel_rule.bazel", "hello_bazel_impl")
 hello_bazel_impl()
