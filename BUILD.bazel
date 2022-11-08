@@ -1,2 +1,6 @@
-load("//:my_bazel_rule.bazel", "hello_bazel_impl")
-hello_bazel_impl()
+load("//:my_bazel_rule.bzl", "hello_bazel")
+hello_bazel(
+    name="hello_bazel",
+    my_input_file="//:input.txt",
+    out_file_name="awesome_output",
+)

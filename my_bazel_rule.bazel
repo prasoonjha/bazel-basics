@@ -1,9 +1,0 @@
-def hello_bazel_impl(ctx):
-    pass
-
-hello_bazel_impl = rule(
-    implementation = hello_bazel_impl,
-    attrs = {
-
-    }
-)
